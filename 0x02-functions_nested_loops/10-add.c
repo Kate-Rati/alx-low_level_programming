@@ -9,8 +9,10 @@
 int main(void)
 {
 	int n;
-       
-        n = add(int a, int b);
+	int a ;
+	int b; 
+        int sum(a + b);
+        n = sum( a, b);
 	printf("%d\n",n);
         return(0);
 }
