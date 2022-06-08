@@ -6,13 +6,7 @@
  * @b int type number
  * returns 0
  */
-int main(void)
+int add(int a, int b)
 {
-	int n;
-	int a ;
-	int b; 
-        int sum(a + b);
-        n = sum( a, b);
-	printf("%d\n",n);
-        return(0);
+return (a + b);
 }
