@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * _strlen - find length of a string
  * @s: string
  * Return: int
  */
-
 
 int _strlen(char *s)
 {
@@ -24,6 +25,7 @@ return (size);
 
 char *str_addChar (char *str, char c)
 {
+
 int size, i;
 char *m;
 
@@ -41,7 +43,6 @@ m[i + 2] = '\0';
 
 return (m);
 }
-
 
 /**
  * *nbr_spaces - return the number of occurent of a string
@@ -70,6 +71,7 @@ unsigned int nbr_spaces(char *s)
   */
 char **strtow(char *str)
 {
+
 int i;
 char **tokens = NULL;
 char *token;
@@ -82,8 +84,8 @@ if (!tokens)
 	return (0);
 }
 	
-
 printf("looping");
+
 for (i = 0; str[i] != '\0'; i++)
 {
 	if (str[i] == ' ')
